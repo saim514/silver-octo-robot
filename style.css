@@ -1,0 +1,37 @@
+body
+{
+    background-color: darkslateblue;
+}
+
+h1
+{
+color: forestgreen;
+background-color: aliceblue;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 5px dashed steelblue;
+    animation-name: chez;
+    animation-duration: 4s;
+    margin-top: 50px;
+    border-radius: 15px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chez
+{
+    from{ box-shadow: 1px 1px 38px slategray;}
+    to{ box-shadow: 1px 1px 38px white;}
+}
+
+p
+{
+    color: white;
+    font-size: 30px;
+}
